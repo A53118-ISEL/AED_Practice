@@ -1,5 +1,3 @@
-//TPC
-
 //T-O(n1+n2), E-O(n1+n2)
 fun merge(ar: IntArray, arr: IntArray, merged: IntArray) {
     var i1 = 0
@@ -20,9 +18,6 @@ fun merge(ar: IntArray, arr: IntArray, merged: IntArray) {
     while (i1 < ar.size) merged[i3++] = ar[i1++]
     while (i2 < arr.size) merged[i3++] = arr[i2++]
 }
-
-vat
-
 
 fun mergeSort(arr1: IntArray, left: Int, right: Int) {
     //caso paragem

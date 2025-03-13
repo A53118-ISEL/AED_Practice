@@ -24,11 +24,10 @@ fun MaxSubArr2(arr: IntArray, left: Int, right: Int): Triple {
     return Triple(l, r, sum)
 }
 
-vat
-//TPC: Algoritmo de Kadane, Linear, O(n)
+//Kadane's Algorithm
 //Linear Solution
 //T-O(n), E-O(n)
-fun MaxSubArr(arr: IntArray, left: Int, right: Int): Triple {
+fun MaxSubArr(arr: Array<Int>, left: Int, right: Int): Triple {
     var l: Int = left
     var r: Int = right
     var sum: Int = arr[l]

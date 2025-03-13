@@ -1,6 +1,3 @@
-//Fazer uma função que cria um arr com um certo size, e mete em cada posição um random number de um range. Meter no Aux.
-//size = 15
-
 //T-O(n^2), E-O(n)
 fun insertionSort1(a: CharArray, left: Int, right: Int) {
     //As alterações que forem feitas no array, são vistas no main.
