@@ -39,17 +39,3 @@ fun MaxSubArr(arr: Array<Int>, left: Int, right: Int): Triple {
     return Triple(l, r, sum)
 }
 
-
-
-//Online Research
-fun max(x: Double, y: Double): Double = if (x >= y) x else y
-
-fun kadaneAlg(arr: IntArray) {
-    var maxCurrent = arr[0]
-    var maxGlobal = arr[0]
-    for (i in arr.indices) {
-        maxCurrent = max(arr[i], maxCurrent+arr[i])
-            if (maxCurrent > maxGlobal) maxCurrent = maxGlobal
-    }
-    return maxGlobal
-}

@@ -1,7 +1,5 @@
-//Para ver time complexity, fazer uma série (aritmética ou geométrica) com um certo tipo de dados.
-//No caso de dados perversos, n = infinito
-//No caso de dados normais, n =
-//No caso de dados
+//Para ver time complexity, fazer uma série (aritmética ou geométrica) com um certo tipo de dados,
+// normalmente perversos (maus) com n = infinito.
 
 //Quando um algoritmo faz trocas aleatórias, não é "Estável"
 
@@ -10,3 +8,4 @@
 
 //Analise de algoritmos
 //teste empirico, consome demasiado tempo
+

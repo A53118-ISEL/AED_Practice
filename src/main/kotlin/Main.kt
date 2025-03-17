@@ -25,9 +25,6 @@ fun main() {
 //    println(insertionSort2(a: CharArray))
 //    println("Took: ${measureTime { insertionSort2(a: CharArray) }}")
 
-//    val arr1 = intArrayOf(2,3,3,6,8)
-//    val arr2 = intArrayOf(1,2,6)
-//    var arr3 = intArrayOf()
 //    print(merge(arr1, arr2, arr3))
 
     println(MaxSubArr(arr))
